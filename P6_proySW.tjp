@@ -5,7 +5,7 @@
  * some elements of it
  */
 
-project pSix "Web Game"  2023-03-15 +3m {
+project pSix "Web Game"  2023-03-15 +3.5m {
   # Set the default time zone for the project. If not specified, UTC
   # is used.
   timezone "Europe/Paris"
@@ -202,8 +202,8 @@ task WMGame "Web & Mobile Game" {
       allocate dev4
     }
 	task tconD "Deployment Construction" {
-      effort 7d
-      actual:effort 10d
+      effort 5d
+      actual:effort 5d
       allocate dev4
 	  journalentry 2023-05-11 "Problems with Azure Virtual Machine" {
         author dev4
