@@ -333,7 +333,7 @@ taskreport overview "" {
   caption 'All effort values are in man days.'
 }
 
-taskreport overview "" {
+taskreport initOverview "" {
   scenarios actual
   headline "Initial Project Plan"
   columns bsi { title 'WBS' },
