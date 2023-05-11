@@ -177,7 +177,7 @@ task WMGame "Web & Mobile Game" {
       effort 10d
       allocate boss
       allocate dev2
-      actual:effort 15d
+      actual:effort 10d
 	  minstart 2023-06-01
       journalentry 2023-06-13 "Problems with the planned dates" {
         author boss
