@@ -156,17 +156,17 @@ task WMGame "Web & Mobile Game" {
     chargeset wFront
     responsible dev4
 	depends WMGame.tback.tBEd
-	task tGUId "Movile GUI Design" {
+	task tMGUId "Movile GUI Design" {
       effort 7d
       actual:effort 15d
       allocate dev4
     }
-    task tFEc "Web Front End Construction" {
+    task tMFEc "Web Front End Movile Construction" {
       effort 15d
       allocate dev2, dev4
       depends WMGame.tmovF.tGUId
     }
-    task tFEt "Web Front End Test" {
+    task tMFEt "Web Front End Movile Test" {
       effort 6d
       allocate dev4
       depends WMGame.tmovF.tFEc
