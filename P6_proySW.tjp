@@ -157,7 +157,7 @@ task WMGame "Web & Mobile Game" {
     responsible dev4
 	depends WMGame.tback.tBEd
 	task tMGUId "Movile GUI Design" {
-      effort 7d
+      effort 9d
       actual:effort 15d
       allocate dev4
     }
@@ -192,7 +192,7 @@ task WMGame "Web & Mobile Game" {
   task tdespl "Deployment" {
 	  purge chargeset
 	  chargeset back
-	  responsible dev1
+	  responsible dev4
       depends WMGame.twebF
 	  depends WMGame.tmovF
       depends WMGame.tback
@@ -204,9 +204,9 @@ task WMGame "Web & Mobile Game" {
 	task tconD "Deployment Construction" {
       effort 5d
       actual:effort 5d
-      allocate dev1
+      allocate dev4
 	  journalentry 2023-05-11 "Problems with Azure Virtual Machine" {
-        author dev1
+        author dev4
         alert red
         summary "The execute scripts fails with the actual configuration."
       }
