@@ -186,6 +186,7 @@ task WMGame "Web & Mobile Game" {
       }
       depends WMGame.twebF
       depends WMGame.tback
+	  depends WMGame.tdespl
   }
   
   task tdespl "Deployment" {
