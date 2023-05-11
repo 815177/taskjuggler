@@ -195,12 +195,12 @@ task WMGame "Web & Mobile Game" {
       depends WMGame.twebF
 	  depends WMGame.tmovF
       depends WMGame.tback
-	  task tGUId "Select Deployment" {
+	  task tselD "Select Deployment" {
       effort 3d
       actual:effort 4d
       allocate dev4
     }
-	task tGUId "Deployment Construction" {
+	task tconD "Deployment Construction" {
       effort 7d
       actual:effort 10d
       allocate dev4
