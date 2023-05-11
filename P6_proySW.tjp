@@ -197,8 +197,8 @@ task WMGame "Web & Mobile Game" {
 	  depends WMGame.tmovF
       depends WMGame.tback
 	  task tselD "Select Deployment" {
-      effort 3d
-      actual:effort 4d
+      effort 2d
+      actual:effort 2d
       allocate dev4
     }
 	task tconD "Deployment Construction" {
